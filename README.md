@@ -13,7 +13,7 @@ CPL-Set2 consists of 8965 pristine images and their corresponding CPL images, se
  # InvJND Pipeline
 Pipeline of our proposed InvJND.
 
- ![Image](https://github.com/Knife646/ResJND/blob/main/figure/ResJND.png)
+ ![Image](https://github.com/Knife646/InvJND/blob/main/figure/ResJND.png)
 
 Overall, our InvJND model contains three modules: Residual Dense Block, Invertible Neural Networks and HF Modulation Block. We employ the Residual Dense Block to enhance the features and reconstruct the output features. The Invertible Neural Network is used to transform between shallow and deep feature space, and the HF Modulation Block modulates the high-frequency information in the deep feature space.
 
