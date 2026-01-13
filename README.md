@@ -39,15 +39,15 @@ Note that the key environment used in our experiments are:
 # Citation
 If you find this repo useful, please cite our paper:
 
-@article{jiang2026invjnd,
-  title={InvJND: Just Noticeable Difference Estimation via Deep Invertible Network},
-  author={Jiang, Qiuping and Liu, Feiyang and Wang, Ziqi and Wang, Zhihua and Wang, Shiqi and Shao, Feng and Zhai, Guangtao and Lin, Weisi},
-  journal={International Journal of Computer Vision},
-  volume={134},
-  number={1},
-  pages={4},
-  year={2026},
-  publisher={Springer}
-}
+     @article{jiang2026invjnd,
+       title={InvJND: Just Noticeable Difference Estimation via Deep Invertible Network},
+       author={Jiang, Qiuping and Liu, Feiyang and Wang, Ziqi and Wang, Zhihua and Wang, Shiqi and Shao, Feng and Zhai, Guangtao and Lin, Weisi},
+       journal={International Journal of Computer Vision},
+       volume={134},
+       number={1},
+       pages={4},
+       year={2026},
+       publisher={Springer}
+     }
 
      
