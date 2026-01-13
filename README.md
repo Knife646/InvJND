@@ -37,8 +37,7 @@ Note that the key environment used in our experiments are:
      torchvision == 0.14.1
 
 # Citation
-If you find this repo useful, please cite our paper. 
-
+If you find this repo useful, please cite our paper:
 
 @article{jiang2026invjnd,
   title={InvJND: Just Noticeable Difference Estimation via Deep Invertible Network},
