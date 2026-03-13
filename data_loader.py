@@ -74,8 +74,8 @@ class train_data_haar(data.Dataset):
         data = np.array(data,dtype='float32')
         label = np.array(label,dtype='float32')
 
-        data_ycbcr = cv2.cvtColor(data, cv2.COLOR_RGB2YCrCb)
-        label_ycbcr = cv2.cvtColor(label, cv2.COLOR_RGB2YCrCb)
+        data_ycbcr = cv2.cvtColor(data, cv2.COLOR_BGR2YCrCb)
+        label_ycbcr = cv2.cvtColor(label, cv2.COLOR_BGR2YCrCb)
 
         # Get Y channel
         data = data_ycbcr[:, :, 0]
@@ -161,8 +161,8 @@ class test_data_haar(data.Dataset):
         data = np.array(data,dtype='float32')
         label = np.array(label,dtype='float32')
 
-        data_ycbcr = cv2.cvtColor(data, cv2.COLOR_RGB2YCrCb)
-        label_ycbcr = cv2.cvtColor(label, cv2.COLOR_RGB2YCrCb)
+        data_ycbcr = cv2.cvtColor(data, cv2.COLOR_BGR2YCrCb)
+        label_ycbcr = cv2.cvtColor(label, cv2.COLOR_BGR2YCrCb)
 
         data = data_ycbcr[:, :, 0]/255
         label = label_ycbcr[:, :, 0]/255
@@ -180,3 +180,4 @@ class test_data_haar(data.Dataset):
     def __len__(self):
 
         return len(os.listdir(self.test_path))
+
